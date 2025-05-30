@@ -2,7 +2,7 @@
 **Automatic Test Pattern Generation (ATPG) for Half Adder Circuit with Stuck-at Fault Simulation**
 ---
 Overview
-This project implements a concise yet robust ATPG tool for a fundamental digital logic component — the **Half Adder**. It evaluates *stuck-at faults* on both inputs (`A`, `B`) and outputs (`SUM`, `CARRY`) by generating targeted test vectors that can detect faults efficiently. This is an essential foundational step toward scalable digital test engineering in VLSI design and verification workflows.
+This project implements a concise yet robust ATPG tool for a fundamental digital logic component - the **Half Adder**. It evaluates *stuck-at faults* on both inputs (`A`, `B`) and outputs (`SUM`, `CARRY`) by generating targeted test vectors that can detect faults efficiently. This is an essential foundational step toward scalable digital test engineering in VLSI design and verification workflows.
 ---
 ## Key Features
 - **Target Fault Injection:** Select any line (`a`, `b`, `sum`, `carry`) to simulate stuck-at-0 or stuck-at-1 faults.
