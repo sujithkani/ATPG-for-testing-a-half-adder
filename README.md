@@ -13,15 +13,21 @@ This project implements a concise yet robust ATPG tool for a fundamental digital
 ## Usage
 ### Build
 Ensure you have [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed.
-Navigate to the project folder
+```bash
+mkdir HalfAdderATPG
+cd HalfAdderATPG
+dotnet new console
+```
+This directory will contain `Program.cs`.
+Edit `Program.cs`
 ```bash
 dotnet build
 ```
-The command is structured as follows:
+The simulation command is structured as follows:
 `dotnet run -- --fault <location> --stuck <level>`
 <location> is the corresponding net where the fault is present (a, b, sum, carry).
 <level> is the logic where the fault is stuck (0 or 1).
-```
+```bash
 dotnet run -- --fault a --stuck 0
 dotnet run -- --fault a --stuck 1
 dotnet run -- --fault b --stuck 0
